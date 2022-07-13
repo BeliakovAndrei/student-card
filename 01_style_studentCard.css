@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=PT+Serif&family=Roboto&family=Tinos&display=swap');
+body {
+    background-color: #f1f1f1;
+    color: #0f1515;
+    font-size: 16px;
+    font-family: 'Tinos', serif;
+    table-layout: auto;
+    text-align: center;
+}
+ body h1 {
+    text-align: center;
+ }
+
+.info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: left;
+    
+}
+.info th {
+    font-weight: bolder;
+    font-size: large;
+    float: left;
+}
+@media (max-width:650px) {
+    .info {
+        display: block;
+    }
+    .img {
+        size: 300px;
+    }
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+
+
+.img {
+    width: 110%;
+    border: solid 3px rgb(99, 84, 84);
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba (0,0,0,0.25);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+a:visited {
+    color:#286161;
+}
+a:active {
+    text-decoration: underline solid black;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.bg-cyan {
+    background: rgb(232, 232, 249);
+    
+}
+
+.bg-grey {
+    background: rgba(246, 235, 235, 0.736);
+   
+}
+
+.bg-azure {
+    background:rgb(210, 249, 223);
+    
+}
+
+.bg-beige {
+    background: rgb(234, 245, 254);
+}
+.card ul {
+    text-align: left;
+}
+
+.courses {
+margin:auto;
+}
+
+.time {
+    margin:auto;
+    }
