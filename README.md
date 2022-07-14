@@ -2,4 +2,4 @@
 
 ## Результаты здесь
 
-[Карта студента/Student card] (https://github.com/BeliakovAndrei/student-card)
+https://beliakovandrei.github.io/student-card/
